@@ -47,5 +47,5 @@ elif choice == 5: # if user choose opetion no.5 (Modulo)
 elif choice == 6: # if user choose opetion no.6 (Power)
     power(num_one,num_two)
 
-else : # if user enter any other choice 
+else : # if user enter any other choice (Invalid Choice)
     print("Invalid Operation :(")
