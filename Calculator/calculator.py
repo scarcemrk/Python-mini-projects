@@ -1,14 +1,11 @@
 # This program do sipmle mathamatical calculation (Addition, Subtraction, Multiplication, Division, Modulo, Power)
 
-# Get Two number from user 
-# Get Operator + | - | * | / | ** | %
-
+# Function for diffrent operation
 def addtion(num1, num2):
     print("\nAddition of two number is ",num1+num2)
 
 def subtraction(num1, num2):
     print("\nSubtraction of two number is ",num1-num2)
-
 def multiplication(num1, num2):
     print("\nMultiplication of two number is ",num1*num2)
 
@@ -32,23 +29,23 @@ num_two = float(input("Enter second number : "))
 
 
 # Check condition and do calculation 
-if choice == 1:
+if choice == 1: # if user choose opetion no.1 (Addition)
     addtion(num_one,num_two)
 
-elif choice == 2:
+elif choice == 2: # if user choose opetion no.2 (Subtraction)
     subtraction(num_one,num_two)
 
-elif choice == 3:
+elif choice == 3: # if user choose opetion no.3 (Multiplication)
     multiplication(num_one,num_two)
 
-elif choice == 4:
+elif choice == 4: # if user choose opetion no.4 (Division)
     division(num_one,num_two)
 
-elif choice == 5:
+elif choice == 5: # if user choose opetion no.5 (Modulo)
     modulo(num_one,num_two)
 
-elif choice == 6:
+elif choice == 6: # if user choose opetion no.6 (Power)
     power(num_one,num_two)
 
-else :
+else : # if user enter any other choice 
     print("Invalid Operation :(")
