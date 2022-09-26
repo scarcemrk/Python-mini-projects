@@ -3,4 +3,4 @@ It takes length of password form user and than genrates strong password using Lo
 
 **Example :** 
 
-<img align="center" src="">
+<img align="center" src="https://raw.githubusercontent.com/scarcemrk/Python-mini-projects/main/Attechments/randomPass.png">
