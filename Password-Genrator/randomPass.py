@@ -1,6 +1,6 @@
 # this Program Generatre random and strong pass 
 import random
-from re import U
+from colorama import Fore
 
 while True:
     upper = 'ABCDEFGHIJKLMNOPQRSTUVWXVZ'
@@ -9,11 +9,11 @@ while True:
     sysmb = '!^#$%&()?*.@'
 
     string = upper + lower + num + sysmb 
-    len = int(input("Enter Length : "))
-    password = "".join(random.sample(string, len-1))
+    len = int(input("[+] Enter Length : "))
+    password = "".join(random.sample(string, len))
 
-    print("Your password is : {}" + password)
+    print("[=] Your password is : "+Fore.RED + password)
 
-    genAgain = input("You want to genrate password again (y/n) : ")
+    genAgain = input(Fore.WHITE+"\n[+] You want to genrate password again (y/n) : ")
     if genAgain.lower() == 'n':
         break
